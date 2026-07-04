@@ -1,0 +1,137 @@
+```gitignore
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled extensions
+*.so
+
+# ==========================
+# Virtual Environments
+# ==========================
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+
+# ==========================
+# Jupyter Notebook
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# macOS
+# ==========================
+.DS_Store
+
+# ==========================
+# Windows
+# ==========================
+Thumbs.db
+Desktop.ini
+
+# ==========================
+# Streamlit
+# ==========================
+.streamlit/secrets.toml
+
+# ==========================
+# Python Packaging
+# ==========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# Testing
+# ==========================
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ==========================
+# Type Checkers
+# ==========================
+.mypy_cache/
+.pyre/
+.pytype/
+
+# ==========================
+# Linting
+# ==========================
+.ruff_cache/
+
+# ==========================
+# IDEs
+# ==========================
+.idea/
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ==========================
+# Local Databases
+# ==========================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================
+# Vector Databases (Optional)
+# Uncomment if your project generates them
+# ==========================
+# chroma_db/
+# faiss_index/
+# vectorstore/
+# .lancedb/
+
+# ==========================
+# Model Files (Optional)
+# Uncomment if downloading models locally
+# ==========================
+# models/
+# checkpoints/
+
+# ==========================
+# Generated Files (Optional)
+# ==========================
+output/
+outputs/
+generated/
+cache/
+
+# ==========================
+# API Keys / Credentials
+# ==========================
+credentials.json
+service_account.json
+*.pem
+*.key
+```
